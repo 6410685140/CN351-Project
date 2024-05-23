@@ -1,0 +1,65 @@
+/* สีพื้นหลัง */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* ขอบและเนื้อหาของหน้า */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* หัวข้อหลัก */
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+/* แบบฟอร์ม */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* ช่องข้อมูลของแบบฟอร์ม */
+form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* ปุ่มสำหรับส่งแบบฟอร์ม */
+form button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* ปุ่มสำหรับดูข้อมูล */
+.view-button {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* ลิงก์ */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* ลิงก์เมื่อชี้โดยตรง */
+a:hover {
+    text-decoration: underline;
+}
